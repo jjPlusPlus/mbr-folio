@@ -26,10 +26,12 @@ Router.map(function() {
   });
 
   this.route('about');
-  this.route('images');
-  this.route('style');
+
+  //Admin Portal
   this.route('admin');
   this.route('analytics');
+  this.route('tags');
+  this.route('images');
 });
 
 export default Router;
